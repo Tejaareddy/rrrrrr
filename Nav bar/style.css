@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+
+.logo-area{
+    color: beige;
+    font-size: 1.9rem;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.nav-items ul{
+    display: flex;
+    list-style-type: none;
+    margin: 5px 5px;
+      
+}
+
+ul li{
+    margin: 25px 25px;
+    
+}
+
+.nav-items a{
+    color: azure;
+    text-decoration: none;
+}
